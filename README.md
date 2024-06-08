@@ -11,7 +11,7 @@ The pipeline requires the following parameters to be defined:
 | packageName | Package Name | string |  | | Required | Specifies the name of the package to download from GitHub |
 | version | Package Version | string |  | stable, edge, test, nightly | Required | Specifies the version of the package to download from GitHub |
 | externalRegistryCredentials | Credentials for registry from GitHub | string |  | | Required | Specifies the credentials to use for external registry from GitHub i.e. externalEndpoints |
-| installDirectory | Destination directory | string |  | | Optional | Specifies the folder where packages are installed. If no folder is specified, packages are restored into the default system working directory |
+| installDirectory | Destination directory or packagesDirectory | string |  | | Optional | Specifies the folder where packages are installed. If no folder is specified, packages are restored into the default system working directory |
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 These parameters provide multiple use case options for the template, enable/disable flags for the utilization of different templates as per the requirements.

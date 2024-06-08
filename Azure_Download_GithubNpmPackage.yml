@@ -1,0 +1,13 @@
+# Download Github Npm Package v1
+# Install npm packages from GitHub.
+
+
+
+
+steps:
+- task: DownloadGithubNpmPackage@1
+  inputs:
+    packageName: # string. Required. Package Name. 
+    version: # string. Required. Package Version. 
+    externalRegistryCredentials: # string. Alias: externalEndpoints. Required. Credentials for registry from GitHub. 
+    #installDirectory: # string. Alias: packagesDirectory. Destination directory.

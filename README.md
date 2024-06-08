@@ -21,7 +21,7 @@ These parameters provide multiple use case options for the template, enable/disa
 
 You can directly call a particular template as per the requirement. for example: 
 
-**  ```yaml
+ ```yaml
   # azure-pipeline.yml
   resources:
   repositories:
@@ -39,6 +39,5 @@ You can directly call a particular template as per the requirement. for example:
       version: '${{parameters.version}}' 
       externalRegistryCredentials: '${{parameters.externalRegistryCredentials}}' 
       installDirectory: '${{parameters.installDirectory}}' 
-  ```**
-  
+  ```
 Make sure to adjust the repository name, branch name, and parameter values according to your project's requirements.
